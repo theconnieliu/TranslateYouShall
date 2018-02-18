@@ -1,0 +1,43 @@
+body {
+    background-color: #b5ffc5;
+    font-family: Ubuntu;
+}
+
+div {
+    text-align: center;
+}
+
+#text {
+    height: 200px;
+}
+
+#translated {
+    height: 200px;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px;
+    background-color: #77ff95;
+    border-width: 0px;
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+}
+
+button {
+    height: 35px;
+    width: 50%;
+    margin: 0px;
+    background-color: #59f97d;
+    border-width: 0px;
+    border-radius: 10px;
+    outline: none;
+    font-family: Ubuntu;
+    font-size: 20px;
+}
+
+button:active {
+    background-color: #45d866;
+}

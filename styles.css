@@ -92,4 +92,5 @@ button{
     float:bottom;
     margin-left: 50px;
     left:0;
+    z-index: -1;
 }

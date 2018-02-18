@@ -3,4 +3,3 @@ function translateYoda() {
   var out = (base);
   document.getElementsByName('translated')[0].value= out;
 }
-

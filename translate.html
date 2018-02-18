@@ -1,24 +1,24 @@
 <!DOCTYPE html>
+
 <html>
+    <form action="index.html">
+    <input type="submit" value="The Past, You Dare to Face?" id = "back"/>
+    </form>
     <head>
         <title>Yoda Translate</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding">
+          link href="https://fonts.googleapis.com/css?family=Rajdhani">
     </head>
     
     <body class= "flexcontainer" id = "grad" align = "center">
-    
-         <!--<button id="translate">Translate</button>-->
-         
+        <!--<button id="back">The Past, You Dare to Face?</button>-->
         <h1>Translate to Yoda</h1>
-        
-        <input type="textbox" name="english"></input><br>
+        <textarea name="english" cols="40" rows="5"></textarea>
         <div></div>
         <button onClick="translateYoda()">Translate, You May</button>
         <div></div>
-        <input type="textbox" name="translated"></input>
-   
+        <textarea name="translated" cols="40" rows="5"></textarea>
         <script src= "https://code.jquery.com/jquery-2.2.3.min.js"></script>
         <script src= "main.js"></script> 
     </body>
